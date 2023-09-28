@@ -1,0 +1,40 @@
+:root {
+    --backgroundBody: #349669;
+    --backgroundCard: #ffffff5e;
+    --colorName: #246144;
+    --colorParagraph: #2c2c2c;
+    --shadow: #363636;
+}
+
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: var(--backgroundBody);
+    text-align: center;
+}
+
+main {
+    height: 96vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2>span {
+    color: var(--colorName);
+}
+
+div {
+    background-color: var(--backgroundCard);
+    border-radius: 15px;
+    box-shadow: 2px 2px 20px var(--shadow);
+    padding: 15px;
+    width: 65%;
+}
+
+p {
+    color: var(--colorParagraph);
+}
